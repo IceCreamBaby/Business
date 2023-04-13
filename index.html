@@ -1,51 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Meine Website</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Login Page Template - IceCreamBABY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style-with-prefix.css">
+    <style>
+        .srouce{
+            text-align: center;
+            color: #ffffff;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-	<header>
-		<h1>Willkommen auf meiner Website</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Startseite</a></li>
-				<li><a href="#">Über uns</a></li>
-				<li><a href="#">Kontakt</a></li>
-			</ul>
-		</nav>
-	</header>
 
-	<main>
-		<section>
-			<h2>Unsere Dienstleistungen</h2>
-			<p>Wir bieten eine Vielzahl von Dienstleistungen an, um Ihnen bei der Verbesserung Ihrer Online-Präsenz zu helfen.</p>
-			<ul>
-				<li>Webdesign</li>
-				<li>Suchmaschinenoptimierung (SEO)</li>
-				<li>Social-Media-Marketing</li>
-			</ul>
-		</section>
+    <div class="main-container">
+        <div class="form-container">
 
-		<section>
-			<h2>Unsere Kunden</h2>
-			<p>Wir haben mit vielen kleinen Unternehmen zusammengearbeitet und ihnen geholfen, ihre Online-Präsenz zu verbessern.</p>
-			<ul>
-				<li>Kleine Einzelhändler</li>
-				<li>Lokale Restaurants</li>
-				<li>Handwerker und Dienstleister</li>
-			</ul>
-		</section>
+            <div class="srouce"><a title="Learn How to create Beautiful HTML & CSS login page template" href="https://www.w3jar.com/beautiful-html-css-login-page-template/">W3jar.Com</a></div>
 
-		
-    </main>
+            <div class="form-body">
+                <h2 class="title">Log in with</h2>
+                <div class="social-login">
+                    <ul>
+                        <li class="google"><a href="#">Google</a></li>
+                        <li class="fb"><a href="#">Facebook</a></li>
+                    </ul>
+                </div><!-- SOCIAL LOGIN -->
 
-    <footer>
-        <p>&copy; 2023 Meine Website. Alle Rechte vorbehalten.</p>
-    </footer>
+                <div class="_or">or</div>
+
+                <form action="" class="the-form">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password">
+
+                    <input type="submit" value="Log In">
+
+                </form>
+
+            </div><!-- FORM BODY-->
+
+            <div class="form-footer">
+                <div>
+                    <span>Don't have an account?</span> <a href="">Sign Up</a>
+                </div>
+            </div><!-- FORM FOOTER -->
+
+        </div><!-- FORM CONTAINER -->
+    </div>
 
 </body>
-
 </html>
